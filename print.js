@@ -1,10 +1,8 @@
  let arg1 = process.argv[2];
  let arg2 = process.argv[3];
 
- import {PI} from "./Math"
- import {sqrt} from "./Math"
- import {square} from "./Math"
+ import Math from "./Math"
 
-  console.log(PI);
-  console.log(sqrt(+arg1));
-  console.log(square(+arg2));
+  console.log(Math.PI);
+  console.log(Math.sqrt(+arg1));
+  console.log(Math.square(+arg2));
